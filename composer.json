@@ -1,0 +1,21 @@
+{
+    "name": "mageguide/skroutz",
+    "description": "Magento2 Module. Add Skroutz Tracking Code to your Magento 2 E-shop",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1|~7.2|~7.3|~7.4",
+        "magento/framework": "100.*|101.*",
+        "magento/module-ui": "100.*|101.*",
+        "magento/module-config": "100.*|101.*",
+        "magento/module-directory": "100.*|101.*",
+        "mageguide/mgbase": "1.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageGuide\\Skroutz\\": "src/"
+        }
+    }
+}
